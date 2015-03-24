@@ -1,0 +1,27 @@
+{
+  "name": "uawc7",
+  "version": "0.0.1",
+  "description": "UA Web Challenge 2015 task for Javascript developers(middle)",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js svr/test",
+    "test": "mocha tests/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/svr"
+  },
+  "dependencies": {
+    "node-gitter": "*"
+  },
+  "devDependencies": {
+    "mocha": "~2.2.1",
+    "chai": "~2.1.2"
+  },
+  "keywords": [
+    "gitter",
+    "calculator"
+  ],
+  "author": "Sergii Ruban",
+  "license": "BSD"
+}
